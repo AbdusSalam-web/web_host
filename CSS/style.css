@@ -1,0 +1,21 @@
+/* font link part start */
+
+/* font link part end */
+/* root variable part start */
+
+/* root variable part end */
+/* common css part start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* common css part end */
+/* navbar part start  */
+h1 {
+    color: red;
+}
+
+/* navbar part end */
