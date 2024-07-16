@@ -190,5 +190,98 @@ ol {
     align-content: center;
 }
 
+.offer {
+    width: 1138px;
+    display: grid;
+    grid-template-columns: repeat(4, 252px);
+    gap: 60px;
+
+}
+
+.offer_card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer_card>h2 {
+    font: 700 20px var(--poppins);
+    color: #000;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+.offer_card>p {
+    font: 300 12px var(--poppins);
+    color: #000;
+}
 
 /* why us part end */
+/* pricing part start */
+#pricing {
+    width: 1097px;
+    margin: 131px auto 105px;
+}
+
+.price_text {
+    width: 857px;
+    margin: 0 auto;
+}
+
+.price_text>h2 {
+    font: 600 50px var(--poppins);
+    color: #000;
+    text-align: center;
+
+}
+
+.price_text>p {
+    margin-bottom: 38px;
+    margin-top: 57px;
+    font: 400 25px var(--poppins);
+    line-height: 25px;
+    color: black;
+    text-align: center;
+}
+
+.subcription_opion {
+    width: 422px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monthly,
+.yealry {
+    font: 400 25px var(--poppins);
+    line-height: 25px;
+    color: black;
+}
+
+.btn>img {
+    width: 93px;
+    height: 50px;
+}
+.discount{
+    padding: 8px 7px;
+    background: #FFE87A;
+    border-radius: 8px;
+    font: 400 10px var(--poppins);
+    color: #000;
+    line-height: 9px;
+}
+.option{
+    margin: 70px auto 6px;
+    width: 555px;
+    display: flex;
+    justify-content: space-between;
+}
+.option>a{
+    font: 600 30px var(--poppins);
+    color: #000;
+    line-height: 40px;
+}
+/* pricing part end  */
