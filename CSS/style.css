@@ -390,47 +390,117 @@ ol {
 
 /* pricing part end  */
 /* testimonial part start */
-#testimonial>.container{
+#testimonial>.container {
     width: 1194px;
     height: 1076px;
     margin-top: 105px;
     margin-bottom: 106px;
 }
+
 /* testimonial part end */
 /* CTA part start */
-    #CTA>.container{
-        width: 1232px;
-        height: 432px;
-        position: relative;
-    } #CTA>.container>img{
-        z-index: -1;
-        position: absolute;
-        top: -80px;
-    }
-    .slogan{
-        margin-top: 80px;
-        margin-left: 114px;
-        margin-bottom: 40px;
-        width: 1024px;
-        font: 600 64px var(--poppins);
-        color: #2E2E2E;
-        line-height: 88px;
-        text-align: center;
-    }
-    .connectWithUs{
-        width: 208px;
-        height: 48px;
-        background: #B00000;
-        border-radius: 8px;
-        margin: 0 auto 88px;
-    }
-    .connectWithUs>a{
-        color: #fff;
-        display: flex;
-        align-items: center;
-        height: 48px;
-        margin-top: 12px;
-        margin-left: 16px;
-        gap: 10px;
-    }
+#CTA>.container {
+    width: 1232px;
+    height: 432px;
+    position: relative;
+}
+
+#CTA>.container>img {
+    z-index: -1;
+    position: absolute;
+    top: -80px;
+}
+
+.slogan {
+    margin-top: 80px;
+    margin-left: 114px;
+    margin-bottom: 40px;
+    width: 1024px;
+    font: 600 64px var(--poppins);
+    color: #2E2E2E;
+    line-height: 88px;
+    text-align: center;
+}
+
+.connectWithUs {
+    width: 208px;
+    height: 48px;
+    background: #B00000;
+    border-radius: 8px;
+    margin: 0 auto 88px;
+}
+
+.connectWithUs>a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 16px;
+    gap: 10px;
+}
+
 /* CTA part end */
+/* footer part start */
+.footer {
+    width: 1440px;
+    background: #B00000;
+}
+
+.footer_row {
+    width: 1221px;
+    display: flex;
+    gap: 120px;
+    margin-left: 40px;
+    padding-top: 64px;
+}
+
+.footer_description {
+    width: 296px;
+}
+
+.footer_link {
+    display: flex;
+    gap: 120px;
+
+}
+
+.footer_logo>img {
+    width: 120px;
+    padding-bottom: 16px;
+}
+
+.footer_description>p {
+    font: 400 16px var(--inter);
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.services>p,
+.Hosting>p,
+.Company>p,
+.help>p {
+    font: 700 16px var(--inter);
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.services>ul>li>a,
+.Hosting>ul>li>a,
+.Company>ul>li>a,
+.help>ul>li>a {
+    font: 400 16px var(--inter);
+    line-height: 32px;
+    color: #E6E6E6;
+    margin: 24px 0;
+}
+
+.copyright>p {
+    margin-left: 40px;
+    margin-top: 96px;
+    padding-bottom: 80px;
+    color: #FFF;
+}
+
+/* footer part end */
